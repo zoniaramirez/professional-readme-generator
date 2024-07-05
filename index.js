@@ -107,7 +107,10 @@ function generateReadMe(response) {
 
 // TODO: Create a function to initialize app
 function init() {
-  
+    inquirer.prompt(questions).then((response) => {
+        const markdown = generateReadMe(response);
+        writeToFile('README.md', markdown);
+    });
 }
 // Function call to initialize app
 init();
