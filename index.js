@@ -61,11 +61,53 @@ function writeToFile(fileName, data) {
     );
 }
 
+// Function to generate markdown for README
+function generateReadMe(response) {
+    return `
+  # ${response.title}
+  
+  ![License](https://img.shields.io/badge/license-${response.license.replace(' ', '%20')}-blue.svg)
+  
+  ## Description
+  ${response.description}
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
+  To install necessary dependencies, run the following command:
+  \`\`\`
+  npm i
+  \`\`\`
 
+  ## Usage
+  ${response.usage}
+
+  ## License
+  This project is licensed under the ${response.license} license.
+
+  ## Contributing
+  ${response.contributing}
+
+  ## Tests
+  To run tests, execute the following command:
+  \`\`\`
+  npm test
+  \`\`\`
+
+  ## Questions
+  For any questions, please contact me at [${response.email}](mailto:${response.email}) or visit my GitHub profile [here](https://github.com/${response.github}).
+  `;
+}
 
 // TODO: Create a function to initialize app
 function init() {
-   
+  
 }
 // Function call to initialize app
 init();
