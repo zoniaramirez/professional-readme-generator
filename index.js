@@ -56,9 +56,8 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>
-        err ? console.log(err) : console.log('Successfully created README.md!')
-    );
+    fs.writeFileSync(fileName, data);
+    console.log('Successfully created README.md!');
 }
 
 // Function to generate markdown for README
@@ -101,7 +100,7 @@ function generateReadMe(response) {
   \`\`\`
 
   ## Questions
-  For any questions, please contact me at [${response.email}](mailto:${response.email}) or visit my GitHub profile [here](https://github.com/${response.github}).
+  For any questions, please contact me at [${response.email}](mailto:${response.email}) or visit my GitHub profile [${response.github}](https://github.com/${response.github}).
   `;
 }
 
