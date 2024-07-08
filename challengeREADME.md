@@ -29,4 +29,4 @@ This README generator was created as a challenge for bootcamp students to apply 
 
 [Google Drive Video Link](https://drive.google.com/file/d/1OpPZIsM82Aej9w5AJT0zdBuK1MBCRMvk/view?usp=drive_link)
 
-[GitHubRepo](https://github.com/zoniaramirez/professional-readme-generator)
+[GitHub Repo](https://github.com/zoniaramirez/professional-readme-generator)
