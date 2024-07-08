@@ -7,25 +7,26 @@ This README generator was created as a challenge for bootcamp students to apply 
 
 ## Acceptance Criteria
 
-    - Having a source code.
+    - Having a source code
     - Given a command-line application that accepts user input
     - When I am prompted for information about my application repository
     - When a high-quality, professional README.md is generated with the title of my project and sections entitled description, table of contents, installation, usage, license, contributing, tests, and questions
     - When I enter my project title it is displayed as the title of the README
-    - When I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-    this information is added to the sections of the README entitled description, installation, usage, contributing, and tests
+    - When I enter a description, installation instructions, usage information, contribution guidelines, and test instructions this information is added to the sections of the README entitled description, installation, usage, contributing, and tests
     - When I choose a license for my application from a list of options a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
     - When I enter my GitHub username this is added to the section of the README entitled questions, with a link to my GitHub profile
     - When I enter my email address this is added to the section of the README entitled questions, with instructions on how to reach me with additional questions
     - When I click on the links in the table of contents I am taken to the corresponding section of the README
 
-## Screenshot
+## README Generator Video
 
-![alttext](./assets/Images/Weather-Dashboard-start.png)
+[Click here to view video](./zoniaramirez_professional-readme-generator.mp4)
+
+
 
 
 ## Links
 
-[LiveURL](https://zoniaramirez.github.io/weather-dashboard/)
+[Google Drive Video Link](https://drive.google.com/file/d/1OpPZIsM82Aej9w5AJT0zdBuK1MBCRMvk/view?usp=drive_link)
 
-[GitHubRepo](https://github.com/zoniaramirez/weather-dashboard)
+[GitHubRepo](https://github.com/zoniaramirez/professional-readme-generator)
