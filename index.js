@@ -108,7 +108,10 @@ function generateReadMe(response) {
 function init() {
     inquirer.prompt(questions).then((response) => {
         const markdown = generateReadMe(response);
-        writeToFile('README.md', markdown);
+        if (!fs.existsSync('gen')) {
+            fs.mkdirSync('gen');
+        }
+        writeToFile('gen/README.md', markdown);
     });
 }
 // Function call to initialize app
