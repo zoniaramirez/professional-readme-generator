@@ -3,7 +3,7 @@
 This README generator was created to allow developers to quickly create a professional README for new projects.
 ## Description
 
-This README generator was created as a challenge for bootcamp students to apply everything that was learned in module 9 of class. The challenge will make this generator run in the command line and will be invoked by using the node index.js command. This app functionality will be achived by using the inquirer package.
+This README generator was created as a challenge for bootcamp students to apply everything that was learned in module 9 of class. The challenge will make this generator run in the command line and will be invoked by using the node index.js command. This app functionality will be achieved by using the inquirer package.
 
 ## Acceptance Criteria
 
@@ -20,7 +20,7 @@ This README generator was created as a challenge for bootcamp students to apply 
 
 ## README Generator Video
 
-[Click here to view video](./zoniaramirez_professional-readme-generator.mp4)
+[Click here to view video](https://drive.google.com/file/d/1OpPZIsM82Aej9w5AJT0zdBuK1MBCRMvk/view?usp=drive_link)
 
 
 
